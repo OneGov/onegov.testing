@@ -34,13 +34,16 @@ setup(
     install_requires=[
         'coverage',
         'elasticsearch',
+        'splinter',
         'mirakuru',
         'onegov.core',
         'Pillow',
         'port-for',
         'pytest>=3.0.6',
+        'pytest-splinter',
         'sqlalchemy',
         'testing.postgresql',
+        'webdriver_manager>=1.4.5',
     ],
     entry_points={
         'pytest11': [

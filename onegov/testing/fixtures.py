@@ -329,3 +329,7 @@ def test_password():
 @pytest.fixture(scope="session")
 def long_lived_filestorage():
     return MemoryFS()
+
+
+def pytest_configure(config):
+    import pdb; pdb.set_trace()
